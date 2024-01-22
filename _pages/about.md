@@ -6,9 +6,9 @@ subtitle: PhD Candidate at <a href='https://www.purdue.edu/'> Purdue University<
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: #prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: #
+  more_info: 
   
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
