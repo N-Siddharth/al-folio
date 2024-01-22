@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://n-siddharth.github.io/github.io//sitemap.xml
+Sitemap: https://n-siddharth.github.io/github.io//al-folio/sitemap.xml
