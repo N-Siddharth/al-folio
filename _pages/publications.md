@@ -12,9 +12,6 @@ Visit [Google Scholar](https://scholar.google.com/citations?hl=en&user=GdK0RqkAA
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers %}
-{% endfor %}
+{% bibliography %}
 
 </div>
