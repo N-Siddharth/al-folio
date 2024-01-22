@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Recipient of the Best Paper Award (2nd place) at the [SPIE Smart Structures + NDE]-2023, Health Monitoring of Structural and Biological Systems conference.
+Recipient of the Best Paper Award (2nd place) at the SPIE Smart Structures + NDE-2023, Health Monitoring of Structural and Biological Systems conference.
