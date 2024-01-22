@@ -2,15 +2,19 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Visit [google scholar][https://scholar.google.com/citations?hl=en&user=GdK0RqkAAAAJ&view_op=list_works&sortby=pubdate] for the updated list of publications
+description: 
 years: [2024, 2023, 2022, 2021, 2019]
 nav: true
 nav_order: 2
 ---
+Visit [google scholar][https://scholar.google.com/citations?hl=en&user=GdK0RqkAAAAJ&view_op=list_works&sortby=pubdate] for the updated list of publications
 
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography %}
+{%- for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f papers -q @*[year={{y}}]* %}
+{% endfor %}
 
 </div>
