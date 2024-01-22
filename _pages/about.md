@@ -15,6 +15,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD student in Mechanical Engineering at Purdue University, advised [Dr. Fabio Semperlotti][https://engineering.purdue.edu/ME/People/ptProfile?resource_id=126925] and part of the [Ray W. Herrick Laboratories][https://engineering.purdue.edu/Herrick].
+I am a PhD student in Mechanical Engineering at Purdue University, advised [Dr. Fabio Semperlotti](https://engineering.purdue.edu/ME/People/ptProfile?resource_id=126925) and part of the [Ray W. Herrick Laboratories](https://engineering.purdue.edu/Herrick).
 
 My work focuses on the development of computational mechanics models using scientific machine learning for mechanical and aeronautical engineering applications. Specifically, my research experience is in the fields of material design and modeling, wave propagation, acoustics, nonlocal mechanics, structural dynamics, physics-guided scientific machine learning, and deep neural networks.
