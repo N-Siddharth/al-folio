@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate at <a href='https://www.purdue.edu/'> Purdue University</a>| Computational Mechanics
+subtitle: PhD Candidate at <a href='https://www.purdue.edu/'> Purdue University</a> | Computational Mechanics
 
 profile:
   align: right
