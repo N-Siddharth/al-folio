@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-06-22 
+date: 2024-01-04 
 inline: true
 related_posts: false
 ---
 
-Our paper [GRIDS-Net: Inverse shape design and identification of scatterers via geometric regularization and physics-embedded deep learning](https://www.sciencedirect.com/science/article/abs/pii/S0045782523002918) accepted for publication in [Computer Methods in Applied Mechanics and Engineering](https://www.sciencedirect.com/journal/computer-methods-in-applied-mechanics-and-engineering) journal.
+US Patent application published - [Vibration attenuation via tailored metastructures](https://patents.google.com/patent/US20240003403A1/en)   
