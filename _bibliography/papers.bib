@@ -78,3 +78,41 @@
   bibtex_show={true},
   html={https://patents.google.com/patent/US20240003403A1/en}
 }
+
+@article{jokar2024time,
+  title={Time transient Simulations via Finite Element Network Analysis: Theoretical Formulation and Numerical Validation},
+  author={Jokar, Mehdi and Nair, Siddharth and Semperlotti, Fabio},
+  abstract={This paper extends the finite element network analysis (FENA) to include a dynamic time-transient formulation. FENA was initially formulated in the context of the linear static analysis of 1D and 2D elastic structures. By introducing the concept of super finite network element, this paper provides the necessary foundation to extend FENA to linear time-transient simulations for both homogeneous and inhomogeneous domains. The concept of neural network concatenation, originally formulated to combine networks representative of different structural components in space, is extended to the time domain. Network concatenation in time enables training neural network models based on data available in a limited time frame and then using the trained networks to simulate the system evolution beyond the initial time window characteristic of the training data set. The proposed methodology is validated by applying FENA to the transient simulation of one-dimensional structural elements (such as rods and beams) and by comparing the results with either analytical or finite element solutions. Results confirm that FENA accurately predicts the dynamic response of the physical system and, while introducing an error on the order of 1% (compared to analytical or computational solutions of the governing differential equations), it is capable of delivering extreme computational efficiency.},
+  journal={arXiv preprint arXiv:2407.02494},
+  year={2024}
+}
+
+@inproceedings{nair2024acoustic,
+  title={Acoustic scattering simulations via physics-informed neural network},
+  author={Nair, Siddharth and Walsh, Timothy F and Pickrell, Gregory and Semperlotti, Fabio},
+  abstract={Multiple scattering is a common phenomenon in acoustic media that arises from the interaction of the acoustic field with a network of scatterers. This mechanism is dominant in problems such as the design and simulation of acoustic metamaterial structures often used to achieve acoustic control for sound isolation, and remote sensing. In this study, we present a physics-informed neural network (PINN) capable of simulating the propagation of acoustic waves in an infinite domain in the presence of multiple rigid scatterers. This approach integrates a deep neural network architecture with the mathematical description of the physical problem in order to obtain predictions of the acoustic field that are consistent with both governing equations and boundary conditions. The predictions from the PINN are compared with those from a commercial finite element software model in order to assess the performance of the method.},
+  booktitle={Sensors and Smart Structures Technologies for Civil, Mechanical, and Aerospace Systems 2024},
+  volume={12949},
+  pages={138--145},
+  year={2024},
+  organization={SPIE}
+}
+
+@article{nair2024physics,
+  title={Physics and geometry informed neural operator network with application to acoustic scattering},
+  author={Nair, Siddharth and Walsh, Timothy F and Pickrell, Greg and Semperlotti, Fabio},
+  abstract={In this paper, we introduce a physics and geometry informed neural operator network with application to the forward simulation of acoustic scattering. The development of geometry informed deep learning models capable of learning a solution operator for different computational domains is a problem of general importance for a variety of engineering applications. To this end, we propose a physics-informed deep operator network (DeepONet) capable of predicting the scattered pressure field for arbitrarily shaped scatterers using a geometric parameterization approach based on non-uniform rational B-splines (NURBS). This approach also results in parsimonious representations of non-trivial scatterer geometries. In contrast to existing physics-based approaches that require model re-evaluation when changing the computational domains, our trained model is capable of learning solution operator that can approximate physically-consistent scattered pressure field in just a few seconds for arbitrary rigid scatterer shapes; it follows that the computational time for forward simulations can improve (i.e. be reduced) by orders of magnitude in comparison to the traditional forward solvers. In addition, this approach can evaluate the scattered pressure field without the need for labeled training data. After presenting the theoretical approach, a comprehensive numerical study is also provided to illustrate the remarkable ability of this approach to simulate the acoustic pressure fields resulting from arbitrary combinations of arbitrary scatterer geometries. These results highlight the unique generalization capability of the proposed operator learning approach.},
+  journal={arXiv preprint arXiv:2406.03407},
+  year={2024}
+}
+
+@article{nair2024multiple,
+  title={Multiple scattering simulation via physics-informed neural networks},
+  author={Nair, Siddharth and Walsh, Timothy F and Pickrell, Greg and Semperlotti, Fabio},
+  abstract={This work presents a physics-driven machine learning framework for the simulation of acoustic scattering problems. The proposed framework relies on a physics-informed neural network (PINN) architecture that leverages prior knowledge based on the physics of the scattering problem as well as a tailored network structure that embodies the concept of the superposition principle of linear wave interaction. The framework can also simulate the scattered field due to rigid scatterers having arbitrary shape as well as high-frequency problems. Unlike conventional data-driven neural networks, the PINN is trained by directly enforcing the governing equations describing the underlying physics, hence without relying on any labeled training dataset. Remarkably, the network model has significantly lower discretization dependence and offers simulation capabilities akin to parallel computation. This feature is particularly beneficial to address computational challenges typically associated with conventional mesh-dependent simulation methods. The performance of the network is investigated via a comprehensive numerical study that explores different application scenarios based on acoustic scattering.},
+  journal={Engineering with Computers},
+  pages={1--20},
+  year={2024},
+  publisher={Springer}
+}
+
