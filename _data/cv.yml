@@ -11,9 +11,9 @@
   contents:
     - title: PhD in Mechanical Engineering
       institution: Purdue University - USA
-      year: 2020-Present
+      year: 2020-2024
       description:
-        - Thesis- Scientific machine learning frameworks for material design and structural health monitoring.
+        - Thesis- Scientific machine learning for forward simulation and inverse design in acoustics and structural mechanics.
     - title: MS in Aeronautical Engineering
       institution: Purdue University - USA
       year: 2017-2019
@@ -28,14 +28,21 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Lead Engineer and PI
+      institution: M3SIM LLC - USA
+      year: 2025-Present
+      description:
+        - Leading research on development of advanced multiphysics simulation techniques by integrating finite element methods with physics-driven AI.
+        - Principal Investigator (PI) for a National Science Foundation (NSF) funded project, responsible for funding acquisition, project planning, and reporting to deliver on strategic research objectives.
+    
     - title: Graduate Research Assistant
       institution: Ray W. Herrick Laboratories, Purdue University - USA
-      year: 2018-Present
+      year: 2018-2024
       description:
-        - title: PhD
+        - title: PhD (2020-2024)
           contents:
             - Developed physics-driven machine learning-based computational models to solve forward and inverse engineering problems in material design and structural health monitoring.
-        - title: MS
+        - title: MS (2018-2019)
           contents:
             - Developed a novel low-frequency vibration attenuation approach using acoustic black holes (ABHs) in thin structures.
             
