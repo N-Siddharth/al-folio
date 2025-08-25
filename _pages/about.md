@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am the technical lead at M3SIM LLC, where we are building next-gen computational tools for structural simulation. My work bridges finite element method (FEM), Reduced order modeling (ROM), and Machine Learning (ML) to create faster, smarter, and more intelligent simulation frameworks — driving the future of [simulation intelligence](https://arxiv.org/abs/2112.03235).
+I am a researcher and technical lead at M3SIM LLC, where we are building next-gen computational tools for structural simulation. My work bridges finite element method (FEM), Reduced order modeling (ROM), and Machine Learning (ML) to create faster, smarter, and more intelligent simulation frameworks — driving the future of [simulation intelligence](https://arxiv.org/abs/2112.03235).
 
 I earned my PhD in Mechanical Engineering at Purdue University. I was advised by [Dr. Fabio Semperlotti](https://engineering.purdue.edu/ME/People/ptProfile?resource_id=126925) and affiliated to [Ray W. Herrick Laboratories](https://engineering.purdue.edu/Herrick).
 
